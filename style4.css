@@ -1,0 +1,383 @@
+    .page
+    {
+        height: 597px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #picture1
+    {
+        background-size: cover;
+    }
+    .main-container
+    {
+        overflow: hidden;
+        height: 1000px;
+    }
+    header
+    {
+        background-color: #FFFFFF;
+        height: 88px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-menu__left_buttons
+    {
+        display: flex;
+        align-items: center;
+    }
+    .main-menu__right_buttons
+    {
+        display: flex;
+        align-items: center;
+    }
+    .main-menu__divider
+    {
+        width: 2px;
+        height: 32px;
+        background-color:#EAEAEA;
+        border-radius: 1px;
+    }
+    main
+    {
+        height: 100%;
+        background-color:#F8F8F8;
+    }
+    #HeadingBlock
+    {
+        display: flex;
+        padding-top: 24px;
+        height: 40px;
+    }
+    #highlight
+    {
+        height: 40px;
+        width: 4px;
+        background-color: #41F6D7;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    #title
+    {
+        height: 40px;
+        font-size: 28px;
+        color: #1B1C21;
+        font-family: TT Lakes;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .slidermenu
+    {
+        display: flex;
+        font-family: TT Lakes;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .slidermenu::-webkit-scrollbar
+    {
+        width: 0px;
+        height: 0px;
+    }
+    .menu_variant_selected:hover
+    {
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+        background: #FFFFFF;
+    }
+    .menu_variant_text
+    {
+        font-family: TT Lakes;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #7E7E82;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .menu_variant
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+        white-space: nowrap;
+    }
+    .Subtitle
+    {
+        font: normal normal 16px "TT Lakes";
+    }
+    .site_text
+    {
+        font-family: TT Lakes;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+
+        letter-spacing: 0.2px;
+        color: #1B1C21;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    #spoiler
+    {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 24px;
+    }
+    #expand_text
+    {
+        margin-left: 8px;
+        font-family: TT Lakes;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        color: #1B1C21;
+    }
+    #fade
+    {
+        position: absolute;
+        right: 0px;
+        width: 24px;
+        background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.0001) 100%);
+    }
+        .main-menu__divider__first
+    {
+        display: none;
+    }
+@media screen and (min-width: 768px) and (max-width: 1119px){
+    #title
+    {
+        margin-left: 12px;
+    }
+    .main-container
+    {
+        width: auto;
+    }
+    .main-menu__divider__first
+    {
+        display: inline;
+    }
+
+    .main-menu__divider
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .main-menu__left_buttons
+    {
+        margin-left: 24px;
+    }
+    .main-menu__right_buttons
+    {
+        margin-right: 24px;
+    }
+
+    .main-menu__button
+    {
+        margin-right: 16px;
+    }
+    .slidermenu
+    {
+        margin-left: 32px;
+        height: 40px;
+    }
+    .site_text
+    {
+        margin-top: 32px;
+    }
+    #container
+    {
+        display: flex;
+        margin-left: 24px;
+        margin-right: 24px;
+        height: 208px;
+    }
+    #inner_container
+    {
+        width: 312px;
+    }
+    #picture1
+    {
+        margin-top: 32px;
+        width: 360px;
+        height: 208px;
+        background-image: url("main/picture_tablet.jpg");
+    }
+    #fade
+    {
+        top: 152px;
+        height: 33px;
+    }
+	.DesktopButtons
+	  {
+		    display: none;
+	  }
+}
+@media screen and (max-width: 767px) and (min-width: 320px){
+    .main-container
+    {
+        width: auto;
+    }
+
+    .main-menu__button
+    {
+        margin-right: 16px;
+    }
+    .main-menu__button__call
+    {
+        display: none;
+    }
+    .main-menu__button__chat
+    {
+        display: none;
+    }
+    .main-menu__button__profile
+    {
+        display: none;
+    }
+    .main-menu__divider
+    {
+        margin-right: 20px;
+        margin-left: 16.75px;
+    }
+    .slidermenu
+    {
+        margin-left: 16px;
+        margin-top: 24px;
+        height: 40px;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .site_text
+    {
+        margin-top: 24px;
+    }
+    #spoiler
+    {
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+    .main-menu__left_buttons
+    {
+        margin-left: 16px;
+    }
+    .main-menu__right_buttons
+    {
+        margin-right: 16px;
+    }
+    .main-menu__button__logo
+    {
+        margin-left: 16px;
+    }
+    #Search
+    {
+        margin-left: 16px;
+    }
+    .site_text
+    {
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    #picture1
+    {
+        margin-top: 16px;
+        width: 320px;
+        height: 176px;
+        background-image: url("main/picture_tablet.jpg");
+    }
+    #fade
+    {
+        top: 176px;
+        height: 40px;
+    }
+    #title
+    {
+        margin-left: 12px;
+    }
+	  .DesktopButtons
+	  {
+		    display: none;
+	  }
+}
+@media screen and (min-width: 1120px){
+    .main-menu
+    {
+        display: none;
+    }
+    .main-container
+    {
+        width:1120px;
+        margin: 0 auto;
+    }
+    #HeadingBlock
+    {
+        padding-top: 42px;
+    }
+    .slidermenu
+    {
+        margin-left: 34px;
+        width: auto;
+        height: 80px;
+    }
+    #title
+    {
+        margin-left: 30px;
+    }
+    .DesktopButtonsText
+    {
+        margin-top: 50px;
+        margin-right: 8px;
+        font-family: TT Lakes;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: right;
+        letter-spacing: -0.2px;
+        color: #1B1C21;
+    }
+    .main-menu__button
+    {
+        margin-top: 42px;
+    }
+	  .DesktopButtons
+	  {
+		    display: flex;
+	  }
+    .HeaderButton{
+      margin-top:40px;
+    }
+	  .DesktopButton
+	  {
+		    display: flex;
+		    margin-right: 32px;
+	  }
+    #picture1
+    {
+        margin-top: 16px;
+        width: 531px;
+        height: 307px;
+        background-image: url("main/pictureDesktop.png");
+    }
+    #container
+    {
+        display: flex;
+        margin-left: 24px;
+        margin-right: 24px;
+        height: 208px;
+    }
+    .site_text
+    {
+        width:490px;
+    }
+}
